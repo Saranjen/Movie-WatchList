@@ -21,7 +21,9 @@ You can then click on the orange + icon at the bottom of your interested movie t
 
 **My Watchlist**
 
-Once you're done adding the interesting ones, you can click on the watch list button to check your current watch queue. You would see a checkmark when you hover over the movies' posters. You can click on it to remove the movies that you have watched.
+Once you're done adding the interesting ones, you can click on the watch list button to check your current watch queue. You would see a checkmark when you hover over the movies' posters. You can click on it to add that specific movie to the Watched Page. There is also an X button upon hovering which deletes movies from your Watchlist.
+
+
 
 ## Resources
 
