@@ -1,0 +1,90 @@
+.ListContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 280px;
+    box-shadow: 0 3px 10px 0 #fcbd37;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.ListCoverImage {
+    object-fit: cover;
+    height: 362px;
+    cursor: pointer;
+}
+
+.ListAdd {
+    width: 18px;
+    height: 18px;
+}
+
+.ListMovieName {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin: 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ListInfoColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+}
+
+.ListMovieInfo {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+}
+
+.btn {
+    padding: 7px 10px;
+    background-color: orange;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    line-height: 1.1;
+}
+
+.btn:hover {
+    background-color: orangered;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.Infobtn {
+    padding: 7px 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    border: solid;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    line-height: 1.1;
+}
+
+.Infobtn:hover {
+    background-color: rgb(199, 196, 196);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}

@@ -1,0 +1,94 @@
+body {
+    background-image: url("./image (9).jpg");
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.AppName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AppIcon {
+    width: 200px;
+    height: 50px;
+}
+
+.Header {
+    background-color: black;
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.myListNavBtn {
+    padding: 8px 15px;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-right: 20px;
+}
+
+.myListNavBtn:hover {
+    cursor: pointer;
+    background-color: darkorange;
+}
+
+.Searchbar {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    border-radius: 6px;
+    margin-left: 20px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.Searchicon {
+    width: 32px;
+    height: 32px;
+}
+
+.Movieimage {
+    width: 200px;
+    height: 50px;
+    margin: 15px;
+}
+
+.Searchinput {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.MovieListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+
+.Placeholder {
+    width: 120px;
+    height: 120px;
+    margin: 150px;
+    opacity: 50%;
+}
