@@ -26,10 +26,12 @@
     overflow: hidden;
     text-transform: capitalize;
     text-overflow: ellipsis;
-    & span {
-        opacity: 0.8;
-    }
 }
+
+.InfoMovieName span {
+    opacity: 0.8;
+}
+
 .InfoMovieInfo {
     font-size: 16px;
     font-weight: 500;
@@ -38,10 +40,12 @@
     margin: 4px 0;
     text-transform: capitalize;
     text-overflow: ellipsis;
-    & span {
-        opacity: 0.5;
-    }
 }
+
+.InfoMovieInfo span {
+    opacity: 0.5;
+}
+
 .InfoClose {
     width: 30px;
     height: 30px;
