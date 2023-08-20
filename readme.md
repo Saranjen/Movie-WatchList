@@ -23,13 +23,6 @@ You can then click on the orange + icon at the bottom of your interested movie t
 
 Once you're done adding the interesting ones, you can click on the watch list button to check your current watch queue. You would see a checkmark when you hover over the movies' posters. You can click on it to remove the movies that you have watched.
 
-## Authors
-
--   Thiveyan Jegasothinathan
--   Saranjen Anandarajah
--   Leo Yuan
--   Evan Kazakin
-
 ## Resources
 
 The OMDB API - https://www.omdbapi.com/
